@@ -1,0 +1,50 @@
+node-balanced-match (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-balanced-match: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix debian/watch
+  * New upstream version 2.0.0
+
+ -- Yadd <yadd@debian.org>  Fri, 08 Oct 2021 11:34:32 +0200
+
+node-balanced-match (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * Enable upstream test using tape
+  * New upstream version 1.0.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 19 Feb 2020 22:09:29 +0100
+
+node-balanced-match (0.4.2-1) unstable; urgency=low
+
+  [ Bas Couwenberg ]
+  * Initial release (Closes: #780655)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 18 Oct 2016 13:40:03 +0530

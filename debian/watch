@@ -1,0 +1,6 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-balanced-match-$1.tar.gz/ \
+https://github.com/juliangruber/balanced-match/tags \
+.*/archive/(?:.*/)?v?([\d\.]+).tar.gz

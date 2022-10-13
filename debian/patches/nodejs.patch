@@ -1,0 +1,15 @@
+Description: Switch NodeJS command from node (upstream) to nodejs (Debian).
+Author: Bas Couwenberg <sebastic@debian.org>
+Forwarded: not-needed
+
+--- a/README.md
++++ b/README.md
+@@ -21,7 +21,7 @@ console.log(balanced('{', '}', 'pre{firs
+ The matches are:
+ 
+ ```bash
+-$ node example.js
++$ nodejs example.js
+ { start: 3, end: 14, pre: 'pre', body: 'in{nested}', post: 'post' }
+ { start: 3,
+   end: 9,

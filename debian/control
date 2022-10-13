@@ -1,0 +1,24 @@
+Source: node-balanced-match
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , node-tape <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-balanced-match
+Vcs-Git: https://salsa.debian.org/js-team/node-balanced-match.git
+Homepage: https://github.com/juliangruber/balanced-match
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-balanced-match
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Match balanced character pairs in Node.js
+ node-balanced-match allows matching balanced string pairs, like { and } or
+ <b> and </b> in Node.js.
+ .
+ Node.js is an event-based server-side JavaScript engine.
